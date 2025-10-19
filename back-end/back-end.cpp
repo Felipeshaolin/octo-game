@@ -2,24 +2,20 @@
 // this is the main file of teh back end of octo
 // octo is a simple minecraft like TUI game
 #include <string>
+#include <ncurses.h>
+#include "back-end.h"
+using namespace std;
 
-class back-end {
 
-    public:
+void backend::start_ncurses(){initscr();} // a function to start the ncurses system
 
-    void get_terminal_info(){
+void backend::get_terminal_info(){ // initates the term_size_x and term_size_y variables
 
-    }
-
-    void create_map(){
-
-    map = ""
-
-    }
-
-    private:
-
-    string map;
+    getmaxyx(stdscr, term_size_y , term_size_x );
 
 }
 
+void backend::create_map(){ // main algorithm to create the map
+
+    map = "";
+}
