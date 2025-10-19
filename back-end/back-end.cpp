@@ -15,7 +15,26 @@ void backend::get_terminal_info(){ // initates the term_size_x and term_size_y v
 
 }
 
+void backend::create_grass_plane(){ // creates a map full of grass
+
+    for (int number = 0; number <= this->term_size_x * this->term_size_y; number++ ) { 
+
+        this->map.append("g");
+
+    }
+
+}
+
 void backend::create_map(){ // main algorithm to create the map
 
-    map = "";
+    this->get_terminal_info();//get terminal info
+    
+    this->create_grass_plane();//create a map full of grass
+
+}
+
+int backend::get_input(){
+
+    return getch();
+
 }

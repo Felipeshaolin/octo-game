@@ -1,0 +1,23 @@
+ _______  _______ _________ _______ 
+(  ___  )(  ____ \\__   __/(  ___  )
+| (   ) || (    \/   ) (   | (   ) |
+| |   | || |         | |   | |   | |
+| |   | || |         | |   | |   | |
+| |   | || |         | |   | |   | |
+| (___) || (____/\   | |   | (___) |
+(_______)(_______/   )_(   (_______)
+- a simple game about creating
+
+this game was crated as a fun project.
+it is not supposed to be 100% optmized,
+but it should be fun!
+
+creating this was a nightmare, 
+I (the dev) am not good at proggraming
+even if i do it very often. It was also
+my first project where i had to use git,
+i always heard about it, and i knew what
+it was but i never used it. Now i know
+what i was missing out on.
+
+

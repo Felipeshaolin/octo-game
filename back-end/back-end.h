@@ -14,8 +14,11 @@ class backend {
 
         void get_terminal_info();// initates the term_size_x and term_size_y variables
 
+        void backend::create_grass_plane(); // creates a map full of grass
+
         void create_map();// main algorithm to create the map
 
+        int get_input();// returns a number based on the input that is being pressed
 
     private:
 

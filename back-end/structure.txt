@@ -1,1 +1,41 @@
-kkk
+ _______  _______ _________ _______ 
+(  ___  )(  ____ \\__   __/(  ___  )
+| (   ) || (    \/   ) (   | (   ) |
+| |   | || |         | |   | |   | |
+| |   | || |         | |   | |   | |
+| |   | || |         | |   | |   | |
+| (___) || (____/\   | |   | (___) |
+(_______)(_______/   )_(   (_______)
+- a simple game about creating
+
+the backend is designed to be simple:
+
+i get the terminal size (get_terminal_info)
+
+I start the ncurses invironment (start_ncurses)
+
+I create map in this way: (create_map)
+
+    table of elements:
+
+        *capital letters means the block/section is one block above the player*
+
+        - n -> nothing (never capital but player cannot cross)
+        - g -> grass
+        - w -> water (never capital)
+        - r -> rock
+        - t -> wood/tree 
+        - l -> plant 
+
+    first use screen dimesions to create a string
+    the size of screen
+
+    fill it with grass (g) (create_grass_plane())
+
+    then create rock,water and grass (w , G , R or r)  formations in circles based on random
+    points (1 rock, water and grass formation per map).
+
+    create trees if possible, with a simple elevated wood section and some plants around( T and l )
+
+    and you have created your world (:
+
