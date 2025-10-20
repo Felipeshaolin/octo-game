@@ -10,11 +10,11 @@
 
 the backend is designed to be simple:
 
-i get the terminal size (get_terminal_info)
+I get the terminal size [get_terminal_info]
 
-I start the ncurses invironment (start_ncurses)
+I start the ncurses invironment [start_ncurses]
 
-I create map in this way: (create_map)
+I create map in this way: [create_map]
 
     table of elements:
 
@@ -30,10 +30,11 @@ I create map in this way: (create_map)
     first use screen dimesions to create a string
     the size of screen
 
-    fill it with grass (g) (create_grass_plane())
+    fill it with grass (g) [create_grass_plane]
 
     then create rock,water and grass (w , G , R or r)  formations in circles based on random
-    points (1 rock, water and grass formation per map).
+    points (1 rock, water and grass formation per map). [create_rock_formations, 
+    create_water_formation and create_mountains ]
 
     create trees if possible, with a simple elevated wood section and some plants around( T and l )
 
