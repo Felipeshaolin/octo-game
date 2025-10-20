@@ -32,6 +32,10 @@ I create map in this way: [create_map]
 
     fill it with grass (g) [create_grass_plane]
 
+    before creating the rocks water body and all, i calculate the maximum number of them, which is
+    5 percent of the lenght of the map string. So, for example for a map with a lenght of 100, 5
+    rocks/water/grass should be added. [set_concentration_of_obstacles]
+
     then create rock,water and grass (w , G , R or r)  formations in circles based on random
     points (1 rock, water and grass formation per map). [create_rock_formations, 
     create_water_formation and create_mountains ]
